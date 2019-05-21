@@ -1,11 +1,14 @@
 # Redux-Gif-App
-  
-Redux-Gif is a responsive React app that demonstrates how [Redux](https://redux.js.org/) can be used for state management and [Redux-Saga](https://redux-saga.js.org/) middleware to manage API calls from [Giphy API](https://haha.giphy.api.com).
+ 
+Redux-Gif is a responsive React app that demonstrates how [Redux](https://redux.js.org/) can be used for state management and [Redux-Saga](https://redux-saga.js.org/) middleware to manage API calls from [Giphy API](https://developers.giphy.com/).
+
+ [![Netlify Status](https://api.netlify.com/api/v1/badges/0f439762-bae7-47fb-b1ee-befd2d341af2/deploy-status)](https://app.netlify.com/sites/redux-gif/deploys)
+[![dependencies Status](https://david-dm.org/buralog/redux-gif-app/status.svg)](https://david-dm.org/buralog/redux-gif-app)
+ [![forthebadge](https://forthebadge.com/images/badges/contains-cat-gifs.svg)](https://forthebadge.com)
 
 
 ## Demo
-![](redux-gif-app-demo)
-[Redux-Gif-App - Live Demo](https://buralog.github.io/react-twitch-app/)
+[Redux-Gif-App - Live Demo](https://redux-gif.netlify.com)
 
 ## Built With
 >This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -30,7 +33,7 @@ $ npm install
 
 [GIPHY API Key](https://developers.giphy.com/) is required to run the project.
 
-Use your key in ``src > API > index.js`` file:
+Use your key in ``src/API/index.js`` file:
 
 ```js
 const KEY = YOUR_API_KEY;
