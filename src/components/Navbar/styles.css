@@ -1,0 +1,43 @@
+.logo {
+  float: left;
+  font-size: 18px;
+  font-family: Gugi;
+}
+
+.navbar {
+  font-size: 1.6rem;
+  font-family: "Pacifico";
+  text-align: center;
+  padding: 10px 20px;
+  color: #424242;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 10;
+}
+
+.search-box-wrapper {
+  display: inline-flex;
+  font-size: 17px;
+}
+
+.search-box-input {
+  font-size: inherit;
+  border: 0.13em solid #ddd;
+  border-radius: 0.5em 0 0 0.5em;
+  padding: 0.2em 0.5em;
+  outline: 0;
+  font-style: italic;
+}
+
+.search-box-button {
+  font-size: inherit;
+  border: 0.13em solid #ddd;
+  border-radius: 0 0.5em 0.5em 0;
+  background-color: white;
+  border-left: 0;
+  padding: 0 0.75em;
+  outline: 0;
+  cursor: pointer;
+}
