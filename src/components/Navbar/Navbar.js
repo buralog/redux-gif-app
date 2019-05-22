@@ -7,7 +7,6 @@ import "./styles.css";
 const placeHolders = [
   "search your fav gif",
   "to infinity and beyond...",
-  "door to gifland",
   "welcome back, neo.",
   "keyboard not found"
 ];
@@ -62,7 +61,6 @@ class Header extends Component {
   }
 
   render() {
-    console.log("placeholder:", this.randomPlaceholder());
     return (
       <div className="navbar">
         <h1 className="logo">REDUX-GIF</h1>
