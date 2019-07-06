@@ -3,8 +3,9 @@ import { GIFS } from '../constants';
 const gifsReducer = (state = {}, action) => {
     switch (action.type) {
         case GIFS.LOAD: {
-            console.log('gifsReducer state : ', state);
             return state.hasOwnProperty(action.searchTerm)
+            // when user searches one of the previous searchTerms again,
+            // load cached gifs from state
                 ? {
                       ...state,
                       [action.searchTerm]: [
@@ -12,6 +13,8 @@ const gifsReducer = (state = {}, action) => {
                           ...action.gifs,
                       ],
                   }
+            // when user searches a new term for the first time,
+            // load new results
                 : {
                       ...state,
                       [action.searchTerm]: [...action.gifs],
